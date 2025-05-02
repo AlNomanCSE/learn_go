@@ -1,9 +1,8 @@
-package main: 
-    Defines the program as an executable package, producing a standalone binary.
-import "fmt": 
-    Imports the fmt package for formatting and printing text to the console.
-main function: 
-    The starting point of the program, executed when the program runs.
+## Code Explanation
+
+- **package main**: Defines the program as an executable package, producing a standalone binary.
+- **import "fmt"**: Imports the `fmt` package for formatting and printing text to the console.
+- **main function**: The starting point of the program, executed when the program runs.
 
 # My First Go Program
 
