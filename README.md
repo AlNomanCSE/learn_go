@@ -22,7 +22,7 @@ import "fmt"
 func main() {
     fmt.Println("Hi there!")
 }
-
+```
 
 In Go (Golang), data types are categorized into primitive and non-primitive types. Let me explain both with examples:
 
