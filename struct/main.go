@@ -31,6 +31,17 @@ func newOrder(id string, ammount float32, status string, cust customer) *order {
 func (o *order) updateAmount(newAmout float32) {
 	o.ammount = newAmout
 }
+
+// recomanded
+func (o *order) updateNameOne(newName string) *order {
+	o.customer.name = newName
+	return o
+}
+
+// not recomaned
+func (o *order) updateNameTwo(newName string) {
+	o.customer.name = newName
+}
 func main() {
 	newcustomer := customer{
 		name:   "Noman",
