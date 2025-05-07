@@ -51,6 +51,7 @@ func main() {
 	// myoder.customer = newcustomer
 	fmt.Println(myoder)
 	myoder.updateAmount(1234.45)
+	myoder.customer.name = "RObin"
 	fmt.Println(myoder)
 
 }

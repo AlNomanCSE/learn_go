@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"maps"
+)
 
 func main() {
 	myMap1 := map[string]int{
@@ -9,8 +12,6 @@ func main() {
 	}
 	myMap2 := make(map[string]int)
 	fmt.Println(myMap1, myMap2)
-	for key, value := range myMap1 {
-		myMap2[key] = value
-	}
+	maps.Copy(myMap2, myMap1)
 	fmt.Println(myMap1, myMap2)
 }
