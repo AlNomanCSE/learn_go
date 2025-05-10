@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
+type greeter struct{}
+
+func (g greeter) sayHello() {
+	fmt.Println("Hello from a method!")
+}
 func main() {
 	age := 18
-	if age > 18 {
-		fmt.Println("Eligibale to merride")
-	} else if age < 18 {
-		fmt.Println("Not Eligibale to merride")
-	} else {
-		fmt.Println("Porashuno koro vai")
-	}
-
+	fmt.Println(age)
+	g := greeter{}
+	g.sayHello()
 }
