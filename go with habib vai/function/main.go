@@ -10,7 +10,7 @@ func (g greeter) sayHello() string {
 	return "Hello from a method!"
 }
 
-func main() {
+func ok() {
 	g := greeter{}
 	fmt.Println(g.sayHello())
 	// mathlib.Add(12, 13)
